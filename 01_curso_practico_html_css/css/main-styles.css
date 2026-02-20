@@ -70,5 +70,26 @@ main .main-logo{
 
 main .main-logo img {
     width: 272px;      /* tamaño “normal”; para achicar, baja este valor */
-    max-width: 80vw;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
